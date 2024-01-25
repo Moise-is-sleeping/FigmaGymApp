@@ -1,0 +1,178 @@
+{
+  "name": "ammenities",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "42:4953",
+    "version": "5033555497",
+    "component-id": "8faea339915fdfbb33fc1c915ce46a7f8949ea0a"
+  },
+  "default": "Ammenities",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Premium Plan"
+      },
+      {
+        "type": "group",
+        "id": "Frame 10"
+      }
+    ],
+    "modes": {
+      "Ammenities": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "20.0",
+            "is-structured": "false",
+            "children": [
+              "Premium Plan",
+              "Frame 10"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Premium Plan",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "110.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "13.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "172.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "Premium Plan",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "24.0",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "0.8333333587646484"
+          },
+          {
+            "id": "Frame 10",
+            "border-radius": "20.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "31.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "65.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "329.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "389.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$Contenido",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Contenido": {
+      "data-type": "list-item",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Ammenities",
+      "size": {
+        "width": 392.0,
+        "height": 484.0
+      },
+      "parameters": {
+        "Contenido": [
+          {
+            "type": "text",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 9.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 16.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 205.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 26.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Reserve Ammenities",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "text-size": 20.0,
+            "letter-spacing": 0.10000000149011612
+          }
+        ]
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

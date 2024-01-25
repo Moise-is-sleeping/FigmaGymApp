@@ -1,0 +1,1890 @@
+{
+  "name": "options",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "123:534",
+    "version": "5033858230",
+    "component-id": "c50d9564a53e181e79d17c2164c482ce004686d2"
+  },
+  "default": "Property 1=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Leading element"
+      },
+      {
+        "type": "group",
+        "id": "Content"
+      },
+      {
+        "type": "group",
+        "id": "Trailing element"
+      },
+      {
+        "type": "group",
+        "id": "Building Blocks/Monogram"
+      },
+      {
+        "type": "text",
+        "id": "Initial"
+      },
+      {
+        "type": "text",
+        "id": "Overline"
+      },
+      {
+        "type": "text",
+        "id": "Headline"
+      },
+      {
+        "type": "text",
+        "id": "Supporting text"
+      },
+      {
+        "type": "text",
+        "id": "Trailing supporting text"
+      },
+      {
+        "type": "group",
+        "id": "Checkboxes"
+      },
+      {
+        "type": "group",
+        "id": "state-layer"
+      },
+      {
+        "type": "group",
+        "id": "state-layer_synth"
+      },
+      {
+        "type": "group",
+        "id": "Icons/check_small"
+      },
+      {
+        "type": "vector",
+        "id": "container"
+      },
+      {
+        "type": "vector",
+        "id": "icon"
+      }
+    ],
+    "modes": {
+      "Property 1=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "16.0",
+              "top": "8.0",
+              "right": "24.0",
+              "bottom": "8.0"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Leading element",
+              "Content",
+              "Trailing element"
+            ],
+            "item-spacing": "16.0",
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9607843137254902"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Leading element",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "cross-axis-align": "start",
+            "children": [
+              "Building Blocks/Monogram"
+            ]
+          },
+          {
+            "id": "Content",
+            "cross-axis-align": "start",
+            "children": [
+              "Overline",
+              "Headline",
+              "Supporting text"
+            ]
+          },
+          {
+            "id": "Trailing element",
+            "tap-handler": "$optionSelected",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Trailing supporting text",
+              "Checkboxes"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Building Blocks/Monogram",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Initial"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "Initial",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.15000000596046448",
+            "line-height": "1.5"
+          },
+          {
+            "id": "Overline",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "Overline",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.3333332824707032"
+          },
+          {
+            "id": "Headline",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Swimming pool",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5"
+          },
+          {
+            "id": "Supporting text",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "Supporting line text lorem ipsum dolor sit amet, consectetur.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "letter-spacing": "0.25",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "Trailing supporting text",
+            "presence": "false",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "100+",
+            "overflow": "visible",
+            "text-align": "right",
+            "text-size": "11.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.454545440673828"
+          },
+          {
+            "id": "Checkboxes",
+            "padding": {
+              "top": "4.0",
+              "right": "4.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "state-layer"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "state-layer",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "state-layer_synth",
+              "Icons/check_small"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "state-layer_synth",
+            "opacity": "100.0",
+            "padding": "11.0",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "container"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Icons/check_small",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "icon"
+            ]
+          },
+          {
+            "id": "container",
+            "border-radius": "2.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "vector-content": "container.svg"
+          },
+          {
+            "id": "icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "9.5367431640625e-7"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.2999997138977051"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.000001907348633"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "9.40000057220459"
+              }
+            },
+            "vector-content": "icon.svg"
+          }
+        ]
+      },
+      "Property 1=Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "16.0",
+              "top": "8.0",
+              "right": "24.0",
+              "bottom": "8.0"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Leading element",
+              "Content",
+              "Trailing element"
+            ],
+            "item-spacing": "16.0",
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9607843137254902"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Leading element",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "cross-axis-align": "start",
+            "children": [
+              "Building Blocks/Monogram"
+            ]
+          },
+          {
+            "id": "Content",
+            "cross-axis-align": "start",
+            "children": [
+              "Overline",
+              "Headline",
+              "Supporting text"
+            ]
+          },
+          {
+            "id": "Trailing element",
+            "tap-handler": "$optionSelected",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Trailing supporting text",
+              "Checkboxes"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Building Blocks/Monogram",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Initial"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "Initial",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "2",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.15000000596046448",
+            "line-height": "1.5"
+          },
+          {
+            "id": "Overline",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "Overline",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.3333332824707032"
+          },
+          {
+            "id": "Headline",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Spa",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5"
+          },
+          {
+            "id": "Supporting text",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "Supporting line text lorem ipsum dolor sit amet, consectetur.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "letter-spacing": "0.25",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "Trailing supporting text",
+            "presence": "false",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "100+",
+            "overflow": "visible",
+            "text-align": "right",
+            "text-size": "11.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.454545440673828"
+          },
+          {
+            "id": "Checkboxes",
+            "padding": {
+              "top": "4.0",
+              "right": "4.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "state-layer"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "state-layer",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "state-layer_synth",
+              "Icons/check_small"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "state-layer_synth",
+            "opacity": "100.0",
+            "padding": "11.0",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "container"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Icons/check_small",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "icon"
+            ]
+          },
+          {
+            "id": "container",
+            "border-radius": "2.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "vector-content": "container1.svg"
+          },
+          {
+            "id": "icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "9.5367431640625e-7"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.2999997138977051"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.000001907348633"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "9.40000057220459"
+              }
+            },
+            "vector-content": "icon1.svg"
+          }
+        ]
+      },
+      "Property 1=Variant3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "16.0",
+              "top": "8.0",
+              "right": "24.0",
+              "bottom": "8.0"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Leading element",
+              "Content",
+              "Trailing element"
+            ],
+            "item-spacing": "16.0",
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9607843137254902"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Leading element",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "cross-axis-align": "start",
+            "children": [
+              "Building Blocks/Monogram"
+            ]
+          },
+          {
+            "id": "Content",
+            "cross-axis-align": "start",
+            "children": [
+              "Overline",
+              "Headline",
+              "Supporting text"
+            ]
+          },
+          {
+            "id": "Trailing element",
+            "tap-handler": "$optionSelected",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Trailing supporting text",
+              "Checkboxes"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Building Blocks/Monogram",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Initial"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "Initial",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "3",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.15000000596046448",
+            "line-height": "1.5"
+          },
+          {
+            "id": "Overline",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "Overline",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.3333332824707032"
+          },
+          {
+            "id": "Headline",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Sauna",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5"
+          },
+          {
+            "id": "Supporting text",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "Supporting line text lorem ipsum dolor sit amet, consectetur.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "letter-spacing": "0.25",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "Trailing supporting text",
+            "presence": "false",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "100+",
+            "overflow": "visible",
+            "text-align": "right",
+            "text-size": "11.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.454545440673828"
+          },
+          {
+            "id": "Checkboxes",
+            "padding": {
+              "top": "4.0",
+              "right": "4.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "state-layer"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "state-layer",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "state-layer_synth",
+              "Icons/check_small"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "state-layer_synth",
+            "opacity": "100.0",
+            "padding": "11.0",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "container"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Icons/check_small",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "icon"
+            ]
+          },
+          {
+            "id": "container",
+            "border-radius": "2.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "vector-content": "container2.svg"
+          },
+          {
+            "id": "icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "9.5367431640625e-7"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.2999997138977051"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.000001907348633"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "9.40000057220459"
+              }
+            },
+            "vector-content": "icon2.svg"
+          }
+        ]
+      },
+      "Property 1=Variant4": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "16.0",
+              "top": "8.0",
+              "right": "24.0",
+              "bottom": "8.0"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Leading element",
+              "Content",
+              "Trailing element"
+            ],
+            "item-spacing": "16.0",
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9607843137254902"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Leading element",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "cross-axis-align": "start",
+            "children": [
+              "Building Blocks/Monogram"
+            ]
+          },
+          {
+            "id": "Content",
+            "cross-axis-align": "start",
+            "children": [
+              "Overline",
+              "Headline",
+              "Supporting text"
+            ]
+          },
+          {
+            "id": "Trailing element",
+            "tap-handler": "$optionSelected",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Trailing supporting text",
+              "Checkboxes"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Building Blocks/Monogram",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Initial"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "Initial",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "4",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.15000000596046448",
+            "line-height": "1.5"
+          },
+          {
+            "id": "Overline",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "Overline",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.3333332824707032"
+          },
+          {
+            "id": "Headline",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Massage",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5"
+          },
+          {
+            "id": "Supporting text",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "Supporting line text lorem ipsum dolor sit amet, consectetur.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "letter-spacing": "0.25",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "Trailing supporting text",
+            "presence": "false",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "100+",
+            "overflow": "visible",
+            "text-align": "right",
+            "text-size": "11.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.454545440673828"
+          },
+          {
+            "id": "Checkboxes",
+            "padding": {
+              "top": "4.0",
+              "right": "4.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "state-layer"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "state-layer",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "state-layer_synth",
+              "Icons/check_small"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "state-layer_synth",
+            "opacity": "100.0",
+            "padding": "11.0",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "container"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Icons/check_small",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "icon"
+            ]
+          },
+          {
+            "id": "container",
+            "border-radius": "2.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "vector-content": "container3.svg"
+          },
+          {
+            "id": "icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "9.5367431640625e-7"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.2999997138977051"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.000001907348633"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "9.40000057220459"
+              }
+            },
+            "vector-content": "icon3.svg"
+          }
+        ]
+      },
+      "Property 1=Variant5": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "16.0",
+              "top": "8.0",
+              "right": "24.0",
+              "bottom": "8.0"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Leading element",
+              "Content",
+              "Trailing element"
+            ],
+            "item-spacing": "16.0",
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9607843137254902"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Leading element",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "cross-axis-align": "start",
+            "children": [
+              "Building Blocks/Monogram"
+            ]
+          },
+          {
+            "id": "Content",
+            "cross-axis-align": "start",
+            "children": [
+              "Overline",
+              "Headline",
+              "Supporting text"
+            ]
+          },
+          {
+            "id": "Trailing element",
+            "tap-handler": "$optionSelected",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Trailing supporting text",
+              "Checkboxes"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Building Blocks/Monogram",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Initial"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "Initial",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "5",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.15000000596046448",
+            "line-height": "1.5"
+          },
+          {
+            "id": "Overline",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "Overline",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.3333332824707032"
+          },
+          {
+            "id": "Headline",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Meal",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5"
+          },
+          {
+            "id": "Supporting text",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "Supporting line text lorem ipsum dolor sit amet, consectetur.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "letter-spacing": "0.25",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "Trailing supporting text",
+            "presence": "false",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "263.99999999999994",
+              "saturation": "0.12658227848101275",
+              "value": "0.30980392156862746"
+            },
+            "text-content": "100+",
+            "overflow": "visible",
+            "text-align": "right",
+            "text-size": "11.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.454545440673828"
+          },
+          {
+            "id": "Checkboxes",
+            "padding": {
+              "top": "4.0",
+              "right": "4.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "state-layer"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "state-layer",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "state-layer_synth",
+              "Icons/check_small"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "state-layer_synth",
+            "opacity": "100.0",
+            "padding": "11.0",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "container"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Icons/check_small",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "icon"
+            ]
+          },
+          {
+            "id": "container",
+            "border-radius": "2.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "vector-content": "container4.svg"
+          },
+          {
+            "id": "icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "9.5367431640625e-7"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.2999997138977051"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.000001907348633"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "9.40000057220459"
+              }
+            },
+            "vector-content": "icon4.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "optionSelected": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Default",
+      "size": {
+        "width": 329.0,
+        "height": 56.0
+      }
+    },
+    {
+      "design": "Property 1=Variant2",
+      "size": {
+        "width": 329.0,
+        "height": 56.0
+      }
+    },
+    {
+      "design": "Property 1=Variant3",
+      "size": {
+        "width": 329.0,
+        "height": 56.0
+      }
+    },
+    {
+      "design": "Property 1=Variant4",
+      "size": {
+        "width": 329.0,
+        "height": 56.0
+      }
+    },
+    {
+      "design": "Property 1=Variant5",
+      "size": {
+        "width": 329.0,
+        "height": 56.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,142 @@
+{
+  "name": "fitness_info",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "42:4962",
+    "version": "5033342404",
+    "component-id": "480bb7af73570879e1ab5d18a90dd37b8c386ca8"
+  },
+  "default": "Fitness info",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Fitness tracker dialogcal 1"
+      },
+      {
+        "type": "image",
+        "id": "Fitness tracker dialogsteps 1"
+      },
+      {
+        "type": "image",
+        "id": "Fitness tracker dialogactivity 1"
+      }
+    ],
+    "modes": {
+      "Fitness info": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "20.0",
+            "is-structured": "false",
+            "children": [
+              "Fitness tracker dialogcal 1",
+              "Fitness tracker dialogsteps 1",
+              "Fitness tracker dialogactivity 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Fitness tracker dialogcal 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-85.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-46.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "148.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "119.0"
+              }
+            },
+            "image-content": "fitness_tracker_dialogcal_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Fitness tracker dialogsteps 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "85.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-46.02119064331055"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "148.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "118.9576187133789"
+              }
+            },
+            "image-content": "fitness_tracker_dialogsteps_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Fitness tracker dialogactivity 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "63.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "318.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              }
+            },
+            "image-content": "fitness_tracker_dialogactivity_1.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Fitness info",
+      "size": {
+        "width": 390.0,
+        "height": 239.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
