@@ -1,0 +1,604 @@
+{
+  "name": "home_",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "42:4811",
+    "version": "5027069344",
+    "component-id": "9b3d71b287d74e3018d5ff4fdf35ef22e6852049"
+  },
+  "default": "Property 1=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "iconamoon:home-thin"
+      },
+      {
+        "type": "image",
+        "id": "fitness-protein 1"
+      },
+      {
+        "type": "image",
+        "id": "iconoir_gymweight 1"
+      },
+      {
+        "type": "image",
+        "id": "VectorHomeButton (1) 1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "image",
+        "id": "iconoir_gymweight 2"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      }
+    ],
+    "modes": {
+      "Property 1=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "iconamoon:home-thin",
+              "fitness-protein 1",
+              "iconoir_gymweight 1",
+              "VectorHomeButton (1) 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "iconamoon:home-thin",
+            "border-radius": "6.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ],
+            "background-color": {
+              "alpha": "0.5568627450980392",
+              "hue": "0.0",
+              "saturation": "0.033112582781457026",
+              "value": "0.592156862745098"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "fitness-protein 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "140.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$StoreButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "image-content": "fitness_protein_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "iconoir_gymweight 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-140.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$WorkoutButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "image-content": "iconoir_gymweight_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "VectorHomeButton (1) 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$HomeButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "image-content": "vector_home_button_1_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Vector",
+            "presence": "false",
+            "margin": {
+              "left": "5.415283203125",
+              "top": "5.41473388671875",
+              "right": "5.415317535400391",
+              "bottom": "5.416664123535156"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          }
+        ]
+      },
+      "Property 1=Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "iconamoon:home-thin",
+              "VectorHomeButton (1) 1",
+              "fitness-protein 1",
+              "iconoir_gymweight 2",
+              "Rectangle 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "iconamoon:home-thin",
+            "border-radius": "6.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ],
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.033112582781457026",
+              "value": "0.592156862745098"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "VectorHomeButton (1) 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$HomeButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "image-content": "vector_home_button_1_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "fitness-protein 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "141.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$StoreButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "image-content": "fitness_protein_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "iconoir_gymweight 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-141.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "image-content": "iconoir_gymweight_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 1",
+            "border-radius": "6.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-141.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "Vector",
+            "presence": "false",
+            "margin": {
+              "left": "5.415283203125",
+              "top": "5.41473388671875",
+              "right": "5.415317535400391",
+              "bottom": "5.416664123535156"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          }
+        ]
+      },
+      "Property 1=Variant3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "iconamoon:home-thin",
+              "VectorHomeButton (1) 1",
+              "Rectangle 1",
+              "fitness-protein 1",
+              "iconoir_gymweight 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "iconamoon:home-thin",
+            "border-radius": "6.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ],
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.033112582781457026",
+              "value": "0.592156862745098"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "VectorHomeButton (1) 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$HomeButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "image-content": "vector_home_button_1_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 1",
+            "border-radius": "6.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "140.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              }
+            },
+            "vector-content": "rectangle_2.svg"
+          },
+          {
+            "id": "fitness-protein 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "140.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$StoreButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "image-content": "fitness_protein_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "iconoir_gymweight 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-140.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "2.0"
+              }
+            },
+            "tap-handler": "$WorkoutButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "image-content": "iconoir_gymweight_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Vector",
+            "presence": "false",
+            "margin": {
+              "left": "5.415283203125",
+              "top": "5.414730072021484",
+              "right": "5.415317535400391",
+              "bottom": "5.416667938232422"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "StoreButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "WorkoutButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "HomeButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Default",
+      "size": {
+        "width": 430.0,
+        "height": 64.0
+      }
+    },
+    {
+      "design": "Property 1=Variant2",
+      "size": {
+        "width": 430.0,
+        "height": 64.0
+      }
+    },
+    {
+      "design": "Property 1=Variant3",
+      "size": {
+        "width": 430.0,
+        "height": 64.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

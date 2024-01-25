@@ -1,0 +1,521 @@
+{
+  "name": "header",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "46:862",
+    "version": "5027162935",
+    "component-id": "b6f7aee8fceec9214423b0d479260011395e60d3"
+  },
+  "default": "Property 1=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Header"
+      },
+      {
+        "type": "image",
+        "id": "Vectoruser 1"
+      },
+      {
+        "type": "image",
+        "id": "Frame 1logo 1"
+      },
+      {
+        "type": "group",
+        "id": "Frame 1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "image",
+        "id": "KRATOS-removebg-preview 1"
+      },
+      {
+        "type": "text",
+        "id": "Kratos Gym"
+      },
+      {
+        "type": "image",
+        "id": "ph_shopping-cart-lightcart 1"
+      }
+    ],
+    "modes": {
+      "Property 1=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Header",
+              "Vectoruser 1",
+              "Frame 1logo 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Header",
+            "is-structured": "false",
+            "children": [
+              "Frame 1",
+              "Vector"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "Vectoruser 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-172.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "51.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "image-content": "vectoruser_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame 1logo 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "135.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "54.0"
+              }
+            },
+            "image-content": "frame_1logo_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame 1",
+            "presence": "false",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "143.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "145.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "62.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "KRATOS-removebg-preview 1",
+              "Kratos Gym"
+            ],
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Vector",
+            "presence": "false",
+            "margin": {
+              "left": "5.0",
+              "top": "4.6875",
+              "right": "373.0",
+              "bottom": "6.5625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "KRATOS-removebg-preview 1",
+            "presence": "false",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "12.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "58.0"
+              }
+            },
+            "scale": "fill"
+          },
+          {
+            "id": "Kratos Gym",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "87.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "9.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "55.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "42.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.03703703703703691",
+              "value": "0.3176470588235294"
+            },
+            "text-content": "Kratos Gym",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.2102272931267233",
+            "typeface": "Inter"
+          }
+        ]
+      },
+      "Property 1=Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Header",
+              "Frame 1logo 1",
+              "Vectoruser 1",
+              "ph_shopping-cart-lightcart 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Header",
+            "is-structured": "false",
+            "children": [
+              "Frame 1",
+              "Vector"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "Frame 1logo 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "135.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "54.0"
+              }
+            },
+            "image-content": "frame_1logo_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Vectoruser 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-175.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "51.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "image-content": "vectoruser_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "ph_shopping-cart-lightcart 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "186.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "tap-handler": "$shoppingCartButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "image-content": "ph_shopping_cart_lightcart_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame 1",
+            "presence": "false",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "143.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "145.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "62.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "KRATOS-removebg-preview 1",
+              "Kratos Gym"
+            ],
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Vector",
+            "presence": "false",
+            "margin": {
+              "left": "5.0",
+              "top": "4.6875",
+              "right": "373.0",
+              "bottom": "6.5625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "KRATOS-removebg-preview 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "12.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "58.0"
+              }
+            },
+            "scale": "fill"
+          },
+          {
+            "id": "Kratos Gym",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "87.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "9.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "55.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "42.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.03703703703703691",
+              "value": "0.3176470588235294"
+            },
+            "text-content": "Kratos Gym",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.2102272931267233",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "shoppingCartButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Default",
+      "size": {
+        "width": 430.0,
+        "height": 60.0
+      }
+    },
+    {
+      "design": "Property 1=Variant2",
+      "size": {
+        "width": 430.0,
+        "height": 60.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
