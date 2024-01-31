@@ -1,0 +1,165 @@
+{
+  "name": "acces_button",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "45:715",
+    "version": "5069249356",
+    "component-id": "b51fdae3df242818e70773f4e5328cbd2e0dd350"
+  },
+  "default": "Acces button",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Frame 4"
+      },
+      {
+        "type": "text",
+        "id": "Access"
+      },
+      {
+        "type": "group",
+        "id": "mdi:qrcode-scan"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      }
+    ],
+    "modes": {
+      "Acces button": {
+        "rules": [
+          {
+            "id": "top_level",
+            "tap-handler": "$QrCode",
+            "is-structured": "false",
+            "children": [
+              "Frame 4"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 4",
+            "border-radius": "11.0",
+            "is-structured": "false",
+            "children": [
+              "Access",
+              "mdi:qrcode-scan"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "47.088607594936704",
+              "saturation": "0.6991150442477877",
+              "value": "0.8862745098039215"
+            }
+          },
+          {
+            "id": "Access",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "7.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "15.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "75.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Access",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "22.0",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "0.9090908813476563"
+          },
+          {
+            "id": "mdi:qrcode-scan",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "88.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "12.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "QrCode": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Acces button",
+      "size": {
+        "width": 120.0,
+        "height": 49.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

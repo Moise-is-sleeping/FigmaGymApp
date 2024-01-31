@@ -1,0 +1,139 @@
+{
+  "name": "search_bar",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "46:749",
+    "version": "5069585047",
+    "component-id": "226786689a9821a15687e5cff617c39f019ff831"
+  },
+  "default": "Search bar",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Search..."
+      },
+      {
+        "type": "image",
+        "id": "bitcoin-icons_search-filledsearch 1"
+      }
+    ],
+    "modes": {
+      "Search bar": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "67.0",
+            "is-structured": "false",
+            "children": [
+              "Search...",
+              "bitcoin-icons_search-filledsearch 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.8509803921568627"
+            }
+          },
+          {
+            "id": "Search...",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "23.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "11.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "103.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "$Search",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "bitcoin-icons_search-filledsearch 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "323.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "5.0"
+              }
+            },
+            "tap-handler": "$SerachButton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.0"
+              }
+            },
+            "image-content": "bitcoin_icons_search_filledsearch_1.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Search": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "SerachButton": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Search bar",
+      "size": {
+        "width": 390.0,
+        "height": 50.0
+      },
+      "parameters": {
+        "Search": "Search..."
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

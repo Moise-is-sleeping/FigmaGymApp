@@ -1,0 +1,258 @@
+{
+  "name": "store_options",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "147:299",
+    "version": "5069620733",
+    "component-id": "56755e8539695b90e8df1340bcf778f4a1ca1647"
+  },
+  "default": "StoreOptions",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Proteins"
+      },
+      {
+        "type": "text",
+        "id": "Mass Gainers"
+      },
+      {
+        "type": "text",
+        "id": "Creatine"
+      },
+      {
+        "type": "adin_component",
+        "id": "Supplements",
+        "key": "supplements"
+      },
+      {
+        "type": "adin_component",
+        "id": "Supplements2",
+        "key": "supplements"
+      },
+      {
+        "type": "adin_component",
+        "id": "Supplements1",
+        "key": "supplements"
+      }
+    ],
+    "modes": {
+      "StoreOptions": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Proteins",
+              "Mass Gainers",
+              "Creatine",
+              "Supplements",
+              "Supplements2",
+              "Supplements1"
+            ]
+          },
+          {
+            "id": "Proteins",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "7.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "100.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.49999999999991",
+              "saturation": "0.07048458149779736",
+              "value": "0.8901960784313725"
+            },
+            "text-content": "Proteins",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Mass Gainers",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "7.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "225.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "178.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.49999999999991",
+              "saturation": "0.07048458149779736",
+              "value": "0.8901960784313725"
+            },
+            "text-content": "Mass Gainers",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Creatine",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "7.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "453.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "100.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.49999999999991",
+              "saturation": "0.07048458149779736",
+              "value": "0.8901960784313725"
+            },
+            "text-content": "Creatine",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Supplements",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "271.0"
+              }
+            },
+            "design": "design=MassGainerList",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "389.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "157.0"
+              }
+            }
+          },
+          {
+            "id": "Supplements2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "506.0"
+              }
+            },
+            "design": "design=CreatineList",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "157.0"
+              }
+            }
+          },
+          {
+            "id": "Supplements1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "50.0"
+              }
+            },
+            "design": "design=ProteinList",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "391.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "157.0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "StoreOptions",
+      "size": {
+        "width": 390.0,
+        "height": 671.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
