@@ -81,7 +81,7 @@ fun MainScreen(navController: NavController) {
                 modifier = Modifier
                     .height(290.dp)
                     .width(370.dp)
-                    .padding(bottom = 10.dp, top = 10.dp)
+                    .padding(bottom = 5.dp, top = 5.dp)
             )
             {
                 FitnessInfo(

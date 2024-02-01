@@ -83,7 +83,7 @@ fun Header(
                 modifier = Modifier.boxAlign(
                     alignment = Alignment.Center,
                     offset = DpOffset(
-                        x = 186.5.dp,
+                        x = 169.5.dp,
                         y = 0.5.dp
                     )
                 )

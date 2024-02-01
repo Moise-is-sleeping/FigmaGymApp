@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.calculator.figmagymapp.ui.theme.ProductScreen
 
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +27,9 @@ class MainActivity : ComponentActivity() {
                 composable(Routes.ProductScreen.route){
                     ProductScreen(navController)
                 }
-
+                composable(Routes.ShoppingCartScreen.route){
+                    ShoppingCartScreen(navController)
+                }
             }
         }
     }

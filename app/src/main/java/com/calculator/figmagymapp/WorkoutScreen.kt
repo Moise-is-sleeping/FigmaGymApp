@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -28,6 +29,8 @@ import com.calculator.figmagymapp.header.Header
 import com.calculator.figmagymapp.header.Property1
 import com.calculator.figmagymapp.home.Home
 import com.calculator.figmagymapp.options.Options
+import com.calculator.figmagymapp.productincart.ProductInCart
+import com.calculator.figmagymapp.workoutsessions.WorkoutSessions
 import com.google.relay.compose.BoxScopeInstance.columnWeight
 import com.google.relay.compose.BoxScopeInstance.rowWeight
 
@@ -58,7 +61,60 @@ fun WorkoutsScreen(navController: NavController){
                 .width(430.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-
+            LazyColumn {
+                item {
+                    Row(
+                        modifier = Modifier
+                            .width(368.dp)
+                            .height(239.dp)
+                            .padding(top = 15.dp)
+                    ) {
+                        WorkoutSessions(
+                            property1 = com.calculator.figmagymapp.workoutsessions.Property1.Default,
+                            modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f)
+                        )
+                    }
+                }
+                item {
+                    Row(
+                        modifier = Modifier
+                            .width(368.dp)
+                            .height(239.dp)
+                            .padding(top = 15.dp)
+                    ) {
+                        WorkoutSessions(
+                            property1 = com.calculator.figmagymapp.workoutsessions.Property1.Variant2,
+                            modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f)
+                        )
+                    }
+                }
+                item {
+                    Row(
+                        modifier = Modifier
+                            .width(368.dp)
+                            .height(239.dp)
+                            .padding(top = 15.dp)
+                    ) {
+                        WorkoutSessions(
+                            property1 = com.calculator.figmagymapp.workoutsessions.Property1.Variant3,
+                            modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f)
+                        )
+                    }
+                }
+                item {
+                    Row(
+                        modifier = Modifier
+                            .width(368.dp)
+                            .height(239.dp)
+                            .padding(top = 15.dp)
+                    ) {
+                        WorkoutSessions(
+                            property1 = com.calculator.figmagymapp.workoutsessions.Property1.Variant4,
+                            modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f)
+                        )
+                    }
+                }
+            }
 
         }
         Row(

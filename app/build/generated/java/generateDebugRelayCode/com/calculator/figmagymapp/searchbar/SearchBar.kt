@@ -50,7 +50,7 @@ fun SearchBar(
             modifier = Modifier.boxAlign(
                 alignment = Alignment.TopStart,
                 offset = DpOffset(
-                    x = 323.0.dp,
+                    x = 308.0.dp,
                     y = 5.0.dp
                 )
             )
