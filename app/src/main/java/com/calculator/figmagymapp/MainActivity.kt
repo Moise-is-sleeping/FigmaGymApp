@@ -6,7 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.calculator.figmagymapp.ui.theme.WorkoutsScreen
+import com.calculator.figmagymapp.ui.theme.ProductScreen
 
 
 class MainActivity : ComponentActivity() {
@@ -14,6 +14,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             val navController = rememberNavController()
+
             NavHost(navController = navController, startDestination = Routes.MainScreen.route){
                 composable(Routes.MainScreen.route){
                     MainScreen(navController)
@@ -23,6 +24,9 @@ class MainActivity : ComponentActivity() {
                 }
                 composable(Routes.WorkoutsScreen.route){
                     WorkoutsScreen(navController)
+                }
+                composable(Routes.ProductScreen.route){
+                    ProductScreen(navController)
                 }
 
             }

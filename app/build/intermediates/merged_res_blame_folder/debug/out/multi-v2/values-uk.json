@@ -4,7 +4,7 @@
             "outputFile": "com.calculator.figmagymapp-mergeDebugResources-49:/values-uk/values-uk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\usuariot\\.gradle\\caches\\transforms-3\\eca48feadccd6b7c34c6eeaa1851f3e2\\transformed\\ui-release\\res\\values-uk\\values-uk.xml",
+                    "source": "C:\\Users\\Moise\\.gradle\\caches\\transforms-3\\eca48feadccd6b7c34c6eeaa1851f3e2\\transformed\\ui-release\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\usuariot\\.gradle\\caches\\transforms-3\\297bfc3f5cd053c4f79705826a3ee115\\transformed\\material3-1.0.0\\res\\values-uk\\values-uk.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,132,203",
-                        "endColumns": "76,70,77",
-                        "endOffsets": "127,198,276"
-                    },
-                    "to": {
-                        "startLines": "11,14,16",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "1009,1289,1444",
-                        "endColumns": "76,70,77",
-                        "endOffsets": "1081,1355,1517"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\usuariot\\.gradle\\caches\\transforms-3\\c8d3dbbcc37b7255cac4e72d4b5de44b\\transformed\\core-1.10.0\\res\\values-uk\\values-uk.xml",
+                    "source": "C:\\Users\\Moise\\.gradle\\caches\\transforms-3\\c8d3dbbcc37b7255cac4e72d4b5de44b\\transformed\\core-1.10.0\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "105,205,307,408,509,614,719,2249",
                         "endColumns": "99,101,100,100,104,104,112,100",
                         "endOffsets": "200,302,403,504,609,714,827,2345"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Moise\\.gradle\\caches\\transforms-3\\297bfc3f5cd053c4f79705826a3ee115\\transformed\\material3-1.0.0\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,132,203",
+                        "endColumns": "76,70,77",
+                        "endOffsets": "127,198,276"
+                    },
+                    "to": {
+                        "startLines": "11,14,16",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1009,1289,1444",
+                        "endColumns": "76,70,77",
+                        "endOffsets": "1081,1355,1517"
                     }
                 }
             ]

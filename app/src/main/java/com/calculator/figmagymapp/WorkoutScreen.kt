@@ -1,4 +1,4 @@
-package com.calculator.figmagymapp.ui.theme
+package com.calculator.figmagymapp
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

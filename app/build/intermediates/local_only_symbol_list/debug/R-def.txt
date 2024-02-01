@@ -8,6 +8,10 @@ color teal_200
 color teal_700
 color white
 drawable acces_button_vector
+drawable code_vector
+drawable code_vector1
+drawable code_vector2
+drawable code_vector3
 drawable fitness_info_fitness_tracker_dialogactivity_1
 drawable fitness_info_fitness_tracker_dialogcal_1
 drawable fitness_info_fitness_tracker_dialogsteps_1
@@ -32,6 +36,11 @@ drawable options_icon1
 drawable options_icon2
 drawable options_icon3
 drawable options_icon4
+drawable product_ellipse_11
+drawable product_ellipse_12
+drawable product_rectangle_2
+drawable product_vector
+drawable product_vector1
 drawable search_bar_bitcoin_icons_search_filledsearch_1
 drawable store_options_c1_removebg_preview_1
 drawable store_options_c2_removebg_preview_1

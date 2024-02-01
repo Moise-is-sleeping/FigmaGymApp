@@ -1,6 +1,7 @@
 package com.calculator.figmagymapp
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -21,6 +22,10 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -29,10 +34,12 @@ import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
 import androidx.navigation.NavController
 import androidx.navigation.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.calculator.figmagymapp.accesbutton.AccesButton
+import com.calculator.figmagymapp.code.Code
 import com.calculator.figmagymapp.fitnessinfo.FitnessInfo
 import com.calculator.figmagymapp.header.Header
 import com.calculator.figmagymapp.home.Home
@@ -45,6 +52,7 @@ import com.google.relay.compose.BoxScopeInstance.rowWeight
 
 @Composable
 fun MainScreen(navController: NavController) {
+    var code by remember { mutableStateOf(false) }
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -185,7 +193,12 @@ fun MainScreen(navController: NavController) {
                                         .padding(end = 38.dp)
                                 ) {
                                     AccesButton(
-                                        modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f)
+                                        qrCode = {
+                                                 code = true
+                                        },
+                                        modifier = Modifier
+                                            .rowWeight(1.0f)
+                                            .columnWeight(1.0f)
                                     )
                                 }
                             }
@@ -217,5 +230,29 @@ fun MainScreen(navController: NavController) {
                     .columnWeight(1.0f)
             )
         }
+        Log.d("codes",code.toString())
+        if (code){
+            Dialog(onDismissRequest = {
+            }) {
+                Box(
+                    modifier = Modifier
+                        .clip(RoundedCornerShape(16.dp))
+                ) {
+                    Column(modifier = Modifier
+                        .height(640.dp)
+                        .width(329.dp))
+                    {
+                        Code(
+                            exit = {
+                                code = false
+                            },
+                            modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f)
+                        )
+                    }
+                }
+
+            }
+        }
     }
+
 }

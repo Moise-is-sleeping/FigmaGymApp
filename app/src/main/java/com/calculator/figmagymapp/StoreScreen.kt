@@ -43,7 +43,7 @@ fun StoreScreen(navController: NavController){
         ) {
             Header(
                 shoppingCartButton = {},
-                property1 = Property1.Default,
+                property1 = Property1.Variant2,
                 modifier = Modifier
                     .rowWeight(1.0f)
                     .columnWeight(1.0f)
@@ -57,8 +57,8 @@ fun StoreScreen(navController: NavController){
         ) {
             Row (modifier = Modifier
                 .height(70.dp)
-                .width(380.dp)
-                .padding(top = 20.dp)){
+                .width(370.dp)
+                .padding(top = 25.dp)){
                 SearchBar(
                     search = "Search...",
                     serachButton = {},
@@ -67,17 +67,27 @@ fun StoreScreen(navController: NavController){
                         .columnWeight(1.0f)
                 )
             }
-            Column(
+            RelayContainer(
+                isStructured = true,
+                scrollable = true,
+                mainAxisAlignment = MainAxisAlignment.Start,
+                crossAxisAlignment = CrossAxisAlignment.Start,
+                arrangement = RelayContainerArrangement.Row,
+                radius = 5.0,
                 modifier = Modifier
-                .height(600.dp)
-                .width(390.dp)
-                    .padding(top = 15.dp)) {
-                StoreOptions(modifier = Modifier
-                    .rowWeight(1.0f)
-                    .columnWeight(1.0f))
+                .height(605.dp)
+                .width(370.dp)
+                    .padding(top = 10.dp)) {
+                StoreOptions(
+                    massGainerButton1 = {navController.navigate(Routes.ProductScreen.route)},
+                    massGainerButton2 = {navController.navigate(Routes.ProductScreen.route)},
+                    creatinebutton1 = {navController.navigate(Routes.ProductScreen.route)},
+                    creatinebutton2 = {navController.navigate(Routes.ProductScreen.route)},
+                    protein1button = {navController.navigate(Routes.ProductScreen.route)},
+                    protein2button = {navController.navigate(Routes.ProductScreen.route)},
+                    modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f)
+                )
             }
-
-
         }
         Row(
             modifier = Modifier
