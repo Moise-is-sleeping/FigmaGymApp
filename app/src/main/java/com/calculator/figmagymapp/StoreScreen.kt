@@ -95,7 +95,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         Proteins(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.proteins.Property1.Default,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -111,7 +111,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         Proteins(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.proteins.Property1.Variant2,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -127,7 +127,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         Proteins(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.proteins.Property1.Variant3,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -143,7 +143,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         Proteins(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.proteins.Property1.Variant4,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -159,7 +159,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         Proteins(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.proteins.Property1.Variant5,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -185,7 +185,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         MassGainers(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.massgainers.Property1.Default,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -201,7 +201,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         MassGainers(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.massgainers.Property1.Variant2,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -217,7 +217,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         MassGainers(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.massgainers.Property1.Variant3,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -233,7 +233,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         MassGainers(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.massgainers.Property1.Variant4,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -249,7 +249,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         MassGainers(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.massgainers.Property1.Variant5,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -272,7 +272,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         Creatine(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.creatine.Property1.Default,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -288,7 +288,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         Creatine(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.creatine.Property1.Variant2,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -304,7 +304,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         Creatine(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.creatine.Property1.Variant3,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -320,7 +320,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         Creatine(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.creatine.Property1.Variant4,
                             modifier = Modifier
                                 .rowWeight(1.0f)
@@ -336,7 +336,7 @@ fun StoreScreen(navController: NavController){
                             .padding(start = 20.dp, end = 10.dp)
                     ) {
                         Creatine(
-                            button1 = {},
+                            button1 = {navController.navigate(Routes.ProductScreen.route)},
                             property1 = com.calculator.figmagymapp.creatine.Property1.Variant5,
                             modifier = Modifier
                                 .rowWeight(1.0f)
