@@ -1,0 +1,297 @@
+{
+  "name": "code",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "66:820",
+    "version": "5070856652",
+    "component-id": "49c3e603146acaf8ff081a3b05a0b47cd5cc76b1"
+  },
+  "default": "code",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Acces Code"
+      },
+      {
+        "type": "group",
+        "id": "Enter "
+      },
+      {
+        "type": "group",
+        "id": "vaadin:qrcode"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "text",
+        "id": "Scan code to Enter"
+      }
+    ],
+    "modes": {
+      "code": {
+        "rules": [
+          {
+            "id": "top_level",
+            "tap-handler": "$exit",
+            "is-structured": "false",
+            "children": [
+              "Acces Code",
+              "Enter "
+            ],
+            "background-color": {
+              "alpha": "0.9372549019607843",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "Acces Code",
+            "border-radius": "22.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-84.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "277.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "260.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "vaadin:qrcode"
+            ],
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Enter ",
+            "border-radius": "20.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "7.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "139.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "263.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Scan code to Enter"
+            ],
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "37.50000000000008",
+              "saturation": "0.037914691943127965",
+              "value": "0.8274509803921568"
+            }
+          },
+          {
+            "id": "vaadin:qrcode",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "36.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "28.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "205.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "205.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector",
+              "Vector3",
+              "Vector2",
+              "Vector1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "right": "128.125",
+              "bottom": "128.125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Vector3",
+            "margin": {
+              "top": "25.625",
+              "right": "128.125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "left": "25.625",
+              "bottom": "25.625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Scan code to Enter",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "3.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "238.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "43.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "Scan  code to Enter",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "26.0",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "0.7692308044433593"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "exit": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "code",
+      "size": {
+        "width": 430.0,
+        "height": 813.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
