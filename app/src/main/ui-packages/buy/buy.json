@@ -1,0 +1,158 @@
+{
+  "name": "buy",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "98:725",
+    "version": "5076936919",
+    "component-id": "18bcacad9f33bd2e61fa8ffb321bbe8af9cb045f"
+  },
+  "default": "Property 1=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Add to Cart"
+      },
+      {
+        "type": "text",
+        "id": "Buy"
+      }
+    ],
+    "modes": {
+      "Property 1=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "22.0",
+            "is-structured": "false",
+            "children": [
+              "Add to Cart"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "47.088607594936704",
+              "saturation": "0.6991150442477877",
+              "value": "0.8862745098039215"
+            }
+          },
+          {
+            "id": "Add to Cart",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "-26.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "14.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "135.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Add to Cart",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          }
+        ]
+      },
+      "Property 1=Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "22.0",
+            "is-structured": "false",
+            "children": [
+              "Buy"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "47.088607594936704",
+              "saturation": "0.6991150442477877",
+              "value": "0.8862745098039215"
+            }
+          },
+          {
+            "id": "Buy",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "49.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "14.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Buy",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "30.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Default",
+      "size": {
+        "width": 187.0,
+        "height": 58.0
+      }
+    },
+    {
+      "design": "Property 1=Variant2",
+      "size": {
+        "width": 158.0,
+        "height": 63.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

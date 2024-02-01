@@ -1,0 +1,549 @@
+{
+  "name": "workout_sessions",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "43:434",
+    "version": "5077321686",
+    "component-id": "70bbcef846b2be6b0ceec33dc840bb6f3feeca1d"
+  },
+  "default": "Property 1=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Captura de pantalla (12) 1"
+      },
+      {
+        "type": "group",
+        "id": "Frame 13"
+      },
+      {
+        "type": "text",
+        "id": "Group Sessions"
+      },
+      {
+        "type": "image",
+        "id": "Captura de pantalla (13) 1"
+      },
+      {
+        "type": "text",
+        "id": "Individual Sessions"
+      },
+      {
+        "type": "image",
+        "id": "Captura de pantalla (14) 1"
+      },
+      {
+        "type": "text",
+        "id": "Online Sessions"
+      },
+      {
+        "type": "image",
+        "id": "Captura de pantalla (15) 1"
+      },
+      {
+        "type": "text",
+        "id": "Core Workouts"
+      }
+    ],
+    "modes": {
+      "Property 1=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "20.0",
+            "is-structured": "false",
+            "children": [
+              "Captura de pantalla (12) 1",
+              "Frame 13"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Captura de pantalla (12) 1",
+            "border-radius": "20.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "368.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "239.0"
+              }
+            },
+            "image-content": "captura_de_pantalla_12_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame 13",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Group Sessions"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.8509803921568627"
+            }
+          },
+          {
+            "id": "Group Sessions",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "102.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "187.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "Group Sessions",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          }
+        ]
+      },
+      "Property 1=Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "20.0",
+            "is-structured": "false",
+            "children": [
+              "Captura de pantalla (13) 1",
+              "Frame 13"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Captura de pantalla (13) 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "49.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "239.0"
+              }
+            },
+            "image-content": "captura_de_pantalla_13_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame 13",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Individual Sessions"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.8509803921568627"
+            }
+          },
+          {
+            "id": "Individual Sessions",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "78.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "233.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "Individual Sessions",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          }
+        ]
+      },
+      "Property 1=Variant3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "20.0",
+            "is-structured": "false",
+            "children": [
+              "Captura de pantalla (13) 1",
+              "Frame 13",
+              "Captura de pantalla (14) 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Captura de pantalla (13) 1",
+            "border-radius": "6.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "597.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "570.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "239.0"
+              }
+            },
+            "image-content": "captura_de_pantalla_13_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame 13",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Online Sessions"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.8509803921568627"
+            }
+          },
+          {
+            "id": "Captura de pantalla (14) 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "49.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "239.0"
+              }
+            },
+            "image-content": "captura_de_pantalla_14_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Online Sessions",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "78.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "233.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "Online Sessions",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          }
+        ]
+      },
+      "Property 1=Variant4": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "20.0",
+            "is-structured": "false",
+            "children": [
+              "Captura de pantalla (13) 1",
+              "Frame 13",
+              "Captura de pantalla (15) 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Captura de pantalla (13) 1",
+            "border-radius": "6.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "597.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "570.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "239.0"
+              }
+            },
+            "image-content": "captura_de_pantalla_13_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame 13",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Core Workouts"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.8509803921568627"
+            }
+          },
+          {
+            "id": "Captura de pantalla (15) 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "49.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "212.0"
+              }
+            },
+            "image-content": "captura_de_pantalla_15_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Core Workouts",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "78.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "264.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "202.5",
+              "saturation": "0.12307692307692297",
+              "value": "0.2549019607843137"
+            },
+            "text-content": "Core Workouts",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "25.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Default",
+      "size": {
+        "width": 368.0,
+        "height": 239.0
+      }
+    },
+    {
+      "design": "Property 1=Variant2",
+      "size": {
+        "width": 368.0,
+        "height": 239.0
+      }
+    },
+    {
+      "design": "Property 1=Variant3",
+      "size": {
+        "width": 368.0,
+        "height": 239.0
+      }
+    },
+    {
+      "design": "Property 1=Variant4",
+      "size": {
+        "width": 368.0,
+        "height": 239.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

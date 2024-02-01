@@ -1,0 +1,310 @@
+{
+  "name": "creatine",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "wQlnysXn9yXzI0eXl8Ncjg",
+    "node": "46:1030",
+    "version": "5077647755",
+    "component-id": "9ae52062fd261a8384143696574a9a71e6802ac9"
+  },
+  "default": "Property 1=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "c1-removebg-preview 1"
+      },
+      {
+        "type": "image",
+        "id": "c2-removebg-preview 1"
+      },
+      {
+        "type": "image",
+        "id": "c3-removebg-preview 1"
+      },
+      {
+        "type": "image",
+        "id": "c4-removebg-preview 1"
+      },
+      {
+        "type": "image",
+        "id": "c5-removebg-preview 1"
+      }
+    ],
+    "modes": {
+      "Property 1=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "22.0",
+            "tap-handler": "$button1",
+            "is-structured": "false",
+            "children": [
+              "c1-removebg-preview 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "c1-removebg-preview 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "116.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "129.0"
+              }
+            },
+            "image-content": "c1_removebg_preview_1.png",
+            "scale": "fill"
+          }
+        ]
+      },
+      "Property 1=Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "22.0",
+            "tap-handler": "$button1",
+            "is-structured": "false",
+            "children": [
+              "c2-removebg-preview 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "c2-removebg-preview 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "99.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "139.0"
+              }
+            },
+            "image-content": "c2_removebg_preview_1.png",
+            "scale": "fill"
+          }
+        ]
+      },
+      "Property 1=Variant3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "22.0",
+            "tap-handler": "$button1",
+            "is-structured": "false",
+            "children": [
+              "c3-removebg-preview 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "c3-removebg-preview 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "132.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "132.0"
+              }
+            },
+            "image-content": "c3_removebg_preview_1.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Property 1=Variant4": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "22.0",
+            "tap-handler": "$button1",
+            "is-structured": "false",
+            "children": [
+              "c4-removebg-preview 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "c4-removebg-preview 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "109.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "142.0"
+              }
+            },
+            "image-content": "c4_removebg_preview_1.png",
+            "scale": "fill"
+          }
+        ]
+      },
+      "Property 1=Variant5": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "22.0",
+            "tap-handler": "$button1",
+            "is-structured": "false",
+            "children": [
+              "c5-removebg-preview 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "c5-removebg-preview 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.0"
+              }
+            },
+            "image-content": "c5_removebg_preview_1.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "button1": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Default",
+      "size": {
+        "width": 200.0,
+        "height": 157.0
+      }
+    },
+    {
+      "design": "Property 1=Variant2",
+      "size": {
+        "width": 200.0,
+        "height": 157.0
+      }
+    },
+    {
+      "design": "Property 1=Variant3",
+      "size": {
+        "width": 200.0,
+        "height": 157.0
+      }
+    },
+    {
+      "design": "Property 1=Variant4",
+      "size": {
+        "width": 200.0,
+        "height": 157.0
+      }
+    },
+    {
+      "design": "Property 1=Variant5",
+      "size": {
+        "width": 200.0,
+        "height": 157.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
